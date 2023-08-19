@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0 auto;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 img {
@@ -21,10 +22,9 @@ img {
     /* margin: 0 auto; */
     background-image: url("images/torshov.jpg");
     background-size: cover;
+    background-position: 5%;
     color: #ffffff;
-    height: 300px;
-    width: 100%;
-    /* width: 720px; */
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@ img {
 }
 
 #hero-title {
-    margin-top: 90px;
+    margin-top: 150px;
     border-radius: 10px;
     background: #1D3557;
     font-size: 1.25rem;
@@ -65,10 +65,10 @@ img {
     flex-direction: row; 
     align-items: center;
     text-align: center;
+    margin: 40px auto;
 }
 
 .activity {
-    /* background: RED; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,11 +78,15 @@ img {
 
 .activities-title {
     width: 85%;
+    margin-bottom: 15px;
+
 }
 
 .activity > h6 {
     margin-top: 0;
     font-size: 0.75rem;
+    width: 60%;
+    line-height: 1.5;
 }
 
 .guide-card {
